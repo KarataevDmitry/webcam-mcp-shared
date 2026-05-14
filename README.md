@@ -1,5 +1,7 @@
 # WebcamMcp.Shared
 
+Лицензия: **MIT** — см. [LICENSE](LICENSE).
+
 Общая библиотека для [webcam-capture-mcp](../webcam-capture-mcp) и [webcam-analysis-mcp](../webcam-analysis-mcp): разбор аргументов MCP-тулов, константы путей `.cascade-ide\...`, классификация движения для `analyze_burst_sequence`.
 
 Собирается как зависимость; отдельный publish не требуется.
