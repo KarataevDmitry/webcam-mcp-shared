@@ -16,13 +16,12 @@ dotnet add package AIGuiders.WebcamMcp.Shared
 
 Публикация на nuget.org — **Trusted Publishing (OIDC)** из GitHub Actions; workflow: `.github/workflows/nuget-publish.yml` (тег `v*` или ручной запуск с версией).
 
-## Расположение
+## Расположение в монорепо (опционально)
 
-Репозиторий задуман как **соседний каталог** с обоими MCP:
+Раньше оба MCP тянули **webcam-mcp-shared** как соседний каталог (`ProjectReference`). Сейчас зависимость — **NuGet** `AIGuiders.WebcamMcp.Shared`. Репозиторий [webcam-mcp-shared](https://github.com/KarataevDmitry/webcam-mcp-shared) остаётся источником кода пакета.
 
 ```text
 open/
-  webcam-mcp-shared/
-  webcam-capture-mcp/   → ProjectReference ..\webcam-mcp-shared\...
-  webcam-analysis-mcp/  → ProjectReference ..\webcam-mcp-shared\...
+  webcam-capture-mcp/   → PackageReference AIGuiders.WebcamMcp.Shared
+  webcam-analysis-mcp/  → PackageReference AIGuiders.WebcamMcp.Shared
 ```
