@@ -1,7 +1,7 @@
 # Публикация на nuget.org через Trusted Publishing (OIDC).
 # nuget.org → пакет AIGuiders.WebcamMcp.Shared → Trusted Publishing → GitHub:
 #   Owner: KarataevDmitry, Repository: webcam-mcp-shared,
-#   Workflow: nuget-publish.yml. Субъект NuGet/login — как у других AIGuiders.* (см. docs/nuget-trusted-publishing.md).
+#   Workflow: nuget-publish.yml. Субъект NuGet/login — как у других AIGuiders.*.
 name: Publish to NuGet
 
 on:

@@ -14,7 +14,7 @@
 dotnet add package AIGuiders.WebcamMcp.Shared
 ```
 
-Публикация на nuget.org — **Trusted Publishing (OIDC)** из GitHub Actions: см. [docs/nuget-trusted-publishing.md](docs/nuget-trusted-publishing.md). Workflow: `.github/workflows/nuget-publish.yml` (тег `v*` или ручной запуск с версией).
+Публикация на nuget.org — **Trusted Publishing (OIDC)** из GitHub Actions; workflow: `.github/workflows/nuget-publish.yml` (тег `v*` или ручной запуск с версией).
 
 ## Расположение
 
