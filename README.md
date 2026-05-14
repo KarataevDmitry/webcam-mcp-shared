@@ -6,6 +6,16 @@
 
 Собирается как зависимость; отдельный publish не требуется.
 
+## NuGet
+
+Пакет: **`AIGuiders.WebcamMcp.Shared`** ([nuget.org](https://www.nuget.org/packages/AIGuiders.WebcamMcp.Shared)). Установка:
+
+```bash
+dotnet add package AIGuiders.WebcamMcp.Shared
+```
+
+Публикация на nuget.org — **Trusted Publishing (OIDC)** из GitHub Actions: см. [docs/nuget-trusted-publishing.md](docs/nuget-trusted-publishing.md). Workflow: `.github/workflows/nuget-publish.yml` (тег `v*` или ручной запуск с версией).
+
 ## Расположение
 
 Репозиторий задуман как **соседний каталог** с обоими MCP:

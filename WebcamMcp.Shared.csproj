@@ -7,7 +7,27 @@
     <RootNamespace>WebcamMcp.Shared</RootNamespace>
     <AssemblyName>WebcamMcp.Shared</AssemblyName>
     <LangVersion>14</LangVersion>
+    <!-- NuGet: Trusted Publishing → репо https://github.com/KarataevDmitry/webcam-mcp-shared -->
+    <PackageId>AIGuiders.WebcamMcp.Shared</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Dmitry Karataev; AIGuiders</Authors>
+    <Company>AIGuiders</Company>
+    <Description>Shared helpers for webcam-capture-mcp and webcam-analysis-mcp: MCP tool JSON args, default paths under .cascade-ide, motion labels for burst analysis. No MCP SDK dependency.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/KarataevDmitry/webcam-mcp-shared</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/KarataevDmitry/webcam-mcp-shared.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>webcam;mcp;cascade-ide;capture;analysis;shared</PackageTags>
+    <PackageReadmeFile>PACKAGE_README.md</PackageReadmeFile>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="PACKAGE_README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
